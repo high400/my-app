@@ -1,11 +1,8 @@
 import { Box, Grid, Flex, GridItem, Text } from "@chakra-ui/react";
-import Header from "../components/Footer";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <>
-      <Header />
       <Box
         bgColor="red"
         width="500px"
@@ -13,7 +10,6 @@ const Home = () => {
         display="flex"
         flexDirection="column"
       ></Box>
-      <Footer />
     </>
   );
 };
